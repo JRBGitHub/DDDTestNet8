@@ -2,10 +2,12 @@ using DDDTestNet8.Domain;
 using DDDTestNet8.Application;
 using DDDTestNet8.Infrastructure;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddOpenApi();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 // Simulación de base de datos en memoria
 var db = new List<AcumuladoDivisa>
@@ -19,12 +21,21 @@ var db = new List<AcumuladoDivisa>
 builder.Services.AddSingleton<IAcumuladoDivisaRepository>(new AcumuladoDivisaInMemoryRepository(db));
 builder.Services.AddSingleton<IAcumuladoDivisaService, AcumuladoDivisaService>();
 
+
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
+// Habilitar Swagger siempre y redirigir a /swagger al iniciar
+app.UseSwagger();
+app.UseSwaggerUI();
+app.Use(async (context, next) =>
 {
-    app.MapOpenApi();
-}
+    if (context.Request.Path == "/")
+    {
+        context.Response.Redirect("/swagger");
+        return;
+    }
+    await next();
+});
 
 app.UseHttpsRedirection();
 
