@@ -1,0 +1,17 @@
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\obj\Debug\net9.0\DDDTestNet8.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\obj\Debug\net9.0\DDDTestNet8.Application.AssemblyInfoInputs.cache
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\obj\Debug\net9.0\DDDTestNet8.Application.AssemblyInfo.cs
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\obj\Debug\net9.0\DDDTestNet8.Application.csproj.CoreCompileInputs.cache
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\bin\Debug\net9.0\DDDTestNet8.Application.deps.json
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\bin\Debug\net9.0\DDDTestNet8.Application.dll
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\bin\Debug\net9.0\DDDTestNet8.Application.pdb
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\bin\Debug\net9.0\DDDTestNet8.Domain.dll
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\bin\Debug\net9.0\DDDTestNet8.Domain.pdb
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\obj\Debug\net9.0\DDDTestNet8.Application.csproj.AssemblyReference.cache
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\obj\Debug\net9.0\DDDTestN.A042E03E.Up2Date
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\obj\Debug\net9.0\DDDTestNet8.Application.dll
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\obj\Debug\net9.0\refint\DDDTestNet8.Application.dll
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\obj\Debug\net9.0\DDDTestNet8.Application.pdb
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\obj\Debug\net9.0\ref\DDDTestNet8.Application.dll
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\bin\Debug\net9.0\DDDTestNet8.Infrastructure.dll
+C:\repo\DDD-TEST-NET8\src\DDDTestNet8.Application\bin\Debug\net9.0\DDDTestNet8.Infrastructure.pdb

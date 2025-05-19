@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DDDTestNet8.Domain\DDDTestNet8.Domain.csproj" />
+    <ProjectReference Include="..\DDDTestNet8.Infrastructure\DDDTestNet8.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

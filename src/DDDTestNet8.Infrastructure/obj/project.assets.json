@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "DDDTestNet8.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/DDDTestNet8.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DDDTestNet8.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DDDTestNet8.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DDDTestNet8.Domain/DDDTestNet8.Domain.csproj",
+      "msbuildProject": "../DDDTestNet8.Domain/DDDTestNet8.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "DDDTestNet8.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\JRB\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\repo\\DDD-TEST-NET8\\src\\DDDTestNet8.Infrastructure\\DDDTestNet8.Infrastructure.csproj",
+      "projectName": "DDDTestNet8.Infrastructure",
+      "projectPath": "C:\\repo\\DDD-TEST-NET8\\src\\DDDTestNet8.Infrastructure\\DDDTestNet8.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\JRB\\.nuget\\packages\\",
+      "outputPath": "C:\\repo\\DDD-TEST-NET8\\src\\DDDTestNet8.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\JRB\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\repo\\DDD-TEST-NET8\\src\\DDDTestNet8.Domain\\DDDTestNet8.Domain.csproj": {
+              "projectPath": "C:\\repo\\DDD-TEST-NET8\\src\\DDDTestNet8.Domain\\DDDTestNet8.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

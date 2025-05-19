@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "DDDTestNet8.Domain/1.0.0": {
+        "runtime": {
+          "DDDTestNet8.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DDDTestNet8.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

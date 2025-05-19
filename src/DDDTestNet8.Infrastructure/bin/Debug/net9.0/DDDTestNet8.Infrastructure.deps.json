@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "DDDTestNet8.Infrastructure/1.0.0": {
+        "dependencies": {
+          "DDDTestNet8.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DDDTestNet8.Infrastructure.dll": {}
+        }
+      },
+      "DDDTestNet8.Domain/1.0.0": {
+        "runtime": {
+          "DDDTestNet8.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DDDTestNet8.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DDDTestNet8.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
